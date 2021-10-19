@@ -1,11 +1,21 @@
-,0
-0,"Bajya, M., Majumdar, A., Butola, B.S., Mawkhlieng, U., Bhattacharjee, D."
-1,"Sharma, S., Majumdar, A., Butola, B.S."
-2,"Mandlekar, N., Joshi, M., Butola, B.S."
-3,"Bajya, M., Majumdar, A., Butola, B.S., Arora, S., Bhattacharjee, D."
-4,"Khude, P., Majumdara, A., Butola, B.S."
-5,"Arora, S., Majumdar, A., Singh Butola, B."
-6,"Rani, N., Jajpura, L., Butola, B.S."
-7,"Ghosh, A., Majumdar, A., Butola, B.S."
-8,"Arora, S., Majumdar, A., Butola, B.S."
-9,"Rani, N., Jajpura, L., Butola, B.S."
+,0,1,2,3,4,5
+0,Article,A Cascaded Generalized Integral Control for Multiobjective Grid-Connected Solar Energy Transfer System,IEEE Transactions on Industrial Electronics,"2021, 68(12), pp. 12385–12395, 9316881","1
+Citations","Nirmal Mukundan, C.M., Naqvi, S.B.Q., Singh, Y., Singh, B., Jayaprakash, P."
+1,Conference Paper,Battery Supported Solar PV-based PMSM Driven Water Pumping System,"ICCISc 2021 - 2021 International Conference on Communication, Control and Information Sciences, Proceedings","2021, 9484904","0
+Citations","Rajan, R., Nirmal Mukundan, C., Muhammed Ramees, M.K., Jayaprakash,"
+2,Conference Paper,Solar pv-fed grid-interactive pmsm-driven water pumping system with switched-lc converter,Lecture Notes in Electrical Engineering,"2021, 756 LNEE, pp. 273–282","0
+Citations","Rajan, R., Nirmal Mukundan, C.M., Muhammad Ramees, M.K.P., Jayaprakash, P."
+3,Conference Paper,A new trinary source-based multilevel inverter for renewable applications,"9th IEEE International Conference on Power Electronics, Drives and Energy Systems, PEDES 2020","2020, 9379586","0
+Citations","Sangeetha, V., Nirmal Mukundan, C.M., Jayaprakash, P., Asokan, O.V."
+4,Conference Paper,A single-stage dual-source seven-level inverter for grid integrated photovoltaic energy transfer system with MPPT,"9th IEEE International Conference on Power Electronics, Drives and Energy Systems, PEDES 2020","2020, 9379339","0
+Citations","Sangeetha, V., Nirmal Mukundan, C.M., Jayaprakash, P., Asokan, O.V., Umashankar, S."
+5,Conference Paper,DSOGI with proportional resonance controlled CHB inverter based two-stage exalted photovoltaic integration in power system with power quality enhancement,IET Renewable Power Generation,"2020, 14(16), pp. 3126–3137","0
+Citations","Nirmal Mukundan, C.M., Jayaprakash, P."
+6,Conference Paper,Modified H-bridge Multilevel Inverter for Grid Integration with Voltage Balancing Circuit,"2020 IEEE International Conference on Power Electronics and Renewable Energy Applications, PEREA 2020","2020, 9339771","0
+Citations","Vineeth, K., Nirmal Mukundan, C.M., Jayaprakash, P., Subramaniam, U."
+7,Conference Paper,Control of a Multilevel Inverter based Grid Integration of Solar PV with BESS,"2020 IEEE International Conference on Power Electronics and Renewable Energy Applications, PEREA 2020","2020, 9339812","0
+Citations","Sangeetha, V., Nirmal Mukundan, C.M., Jayaprakash, P., Asokan, O.V."
+8,Conference Paper,A Modified SEPIC Converter Based Solar Power Integration with Single Phase Utility Bus,"2020 IEEE International Power and Renewable Energy Conference, IPRECON 2020","2020, 9315251","0
+Citations","Mufsina, A.M., Shahin, M., Nirmal Mukundan, C.M., Jayaprakash, P."
+9,Article,Multi-Objective Solar Power Conversion System with MGI Control for Grid Integration at Adverse Operating Conditions,IEEE Transactions on Sustainable Energy,"2020, 11(4), pp. 2901–2910, 9039762","0
+Citations","Nirmal Mukundan, C.M., Singh, Y., Naqvi, S.B.Q., Singh, B., Pychadathil, J."

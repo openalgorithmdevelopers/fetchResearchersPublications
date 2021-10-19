@@ -16,7 +16,7 @@ import pandas as pd
 
 
 os.chdir('C:/Users/bhupendra.singh/Documents/GitHub/fetchResearchersPublications')
-authorId = 8729884300
+authorId = 57202256028
 url = "https://www.scopus.com/authid/detail.uri?authorId=" + str(authorId)
 
 
@@ -42,25 +42,26 @@ authorsWebElementList = driver.find_elements(By.XPATH,  '//div[@class="author-li
 
 
 print(len(articleTypeWebElementList))
-articleNameList = list()
-journalNameList = list()
-articleTypeList = list()
-citationCountList = list()
+
 
 dataRows = []
-singleRow = list()
+singleRow = []
 
-for i in articleTypeWebElementList:
-    print("here")
+for i in range(len(articleTypeWebElementList)):
+    print(articleTypeWebElementList[i].text)
+    singleRow = []
     singleRow.append(articleTypeWebElementList[i].text)
-    print("now here")
     singleRow.append(articleAndJournalNameWebElementList[2*i].text)
     singleRow.append(articleAndJournalNameWebElementList[2*i + 1].text)
     singleRow.append(articleInformationWebElementList[i].text)
-    singleRow.append(citationCountList[i].text)
+    singleRow.append(citationsCountWebElementList[i].text)
     singleRow.append(authorsWebElementList[i].text)
     dataRows.append(singleRow)
-    
+    del singleRow
+    #singleRow.clear()
+#     
+# =============================================================================
 df = pd.DataFrame(dataRows)
+df.to_csv("final_report.csv")
 
 driver.quit()

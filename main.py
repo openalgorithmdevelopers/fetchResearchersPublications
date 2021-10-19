@@ -18,8 +18,11 @@ import time  #replace with selenium wait
 
 from webdriver_manager.chrome import ChromeDriverManager
 
+import pandas as pd
+
+
 os.chdir('C:/Users/bhupendra.singh/Documents/GitHub/fetchResearchersPublications')
-authorId = 7405638726
+authorId = 57202256028
 url = "https://www.scopus.com/authid/detail.uri?authorId=" + str(authorId)
 
 
@@ -34,17 +37,37 @@ driver.refresh()
 time.sleep(15)
 print("title = " + driver.title)
 
-players = driver.find_elements(By.XPATH, '//a[@title="Show document details"]') #Article and journal name
-players = driver.find_elements(By.XPATH,  '//div[@data-component="document-type"]') #article or + open, conference paper
+articleAndJournalNameWebElementList = driver.find_elements(By.XPATH, '//a[@title="Show document details"]') #Article and journal name
+articleTypeWebElementList = driver.find_elements(By.XPATH,  '//div[@data-component="document-type"]') #article or + open, conference paper
 
-players = driver.find_elements(By.XPATH,  '//span[@class="text-meta"]') #year, vol, issue, page nos, article no/
-players = driver.find_elements(By.XPATH,  '//div[@class="sc-els-info-field"]') #Citations count
+articleInformationWebElementList = driver.find_elements(By.XPATH,  '//span[@class="text-meta"]') #year, vol, issue, page nos, article no/
+citationsCountWebElementList = driver.find_elements(By.XPATH,  '//div[@class="sc-els-info-field"]') #Citations count
 
-players = driver.find_elements(By.XPATH,  '//div[@data-component="document-authors"]') #article or + open, conference paper
-players = driver.find_elements(By.XPATH,  '//div[@class="author-list"]') #Authors lists
+#players = driver.find_elements(By.XPATH,  '//div[@data-component="document-authors"]') #article or + open, conference paper
+authorsWebElementList = driver.find_elements(By.XPATH,  '//div[@class="author-list"]') #Authors lists
 
-print(len(players))
-for i in players:
-    print(i.text)
-    
+
+print(len(articleTypeWebElementList))
+
+
+dataRows = []
+singleRow = []
+
+for i in range(len(articleTypeWebElementList)):
+    print(articleTypeWebElementList[i].text)
+    singleRow = []
+    singleRow.append(articleTypeWebElementList[i].text)
+    singleRow.append(articleAndJournalNameWebElementList[2*i].text)
+    singleRow.append(articleAndJournalNameWebElementList[2*i + 1].text)
+    singleRow.append(articleInformationWebElementList[i].text)
+    singleRow.append(citationsCountWebElementList[i].text)
+    singleRow.append(authorsWebElementList[i].text)
+    dataRows.append(singleRow)
+    del singleRow
+    #singleRow.clear()
+#     
+# =============================================================================
+df = pd.DataFrame(dataRows)
+df.to_csv("final_report.csv")
+
 driver.quit()
