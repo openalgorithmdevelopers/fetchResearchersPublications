@@ -16,8 +16,9 @@ import pandas as pd
 
 
 os.chdir('C:/Users/bhupendra.singh/Documents/GitHub/fetchResearchersPublications')
-authorId = 57221459727
-#authorId = 57210953023  #bhupendra singh
+#authorId = 57197900632
+authorId = 57210953023  #bhupendra singh
+#authorId = 57221459727 #D K Awasthi
 url = "https://www.scopus.com/authid/detail.uri?authorId=" + str(authorId)
 
 
@@ -36,8 +37,18 @@ print("title = " + driver.title)
 dataRows = []
 singleRow = []
 
-for numberOfNext in range(2):       #provide here the number of next clicks avaiable
-    print("i = " + str(numberOfNext))
+articles = driver.find_elements(By.XPATH,  '//els-paginator[@totalamount]') 
+a = articles[0].text
+b = a.split()
+c = b.index('Next')
+numberOfNext = b[c-1]
+numberOfNext = int(numberOfNext)
+if(numberOfNext > 100):
+    numberOfNext = 50
+
+for currentPage in range(numberOfNext):       #provide here the number of next clicks avaiable
+    currentPage = currentPage + 1
+    print("current page = " + str(currentPage))
     articleAndJournalNameWebElementList = driver.find_elements(By.XPATH, '//a[@title="Show document details"]') #Article and journal name
     articleTypeWebElementList = driver.find_elements(By.XPATH,  '//div[@data-component="document-type"]') #article or + open, conference paper
     
@@ -47,7 +58,6 @@ for numberOfNext in range(2):       #provide here the number of next clicks avai
     #players = driver.find_elements(By.XPATH,  '//div[@data-component="document-authors"]') #article or + open, conference paper
     authorsWebElementList = driver.find_elements(By.XPATH,  '//div[@class="author-list"]') #Authors lists
     for i in range(len(articleTypeWebElementList)):
-        print(articleTypeWebElementList[i].text)
         singleRow = []
         singleRow.append(articleTypeWebElementList[i].text)
         singleRow.append(articleAndJournalNameWebElementList[2*i].text)
@@ -71,13 +81,14 @@ for numberOfNext in range(2):       #provide here the number of next clicks avai
         dataRows.append(singleRow)
         del singleRow
     #singleRow.clear()
-    a = driver.find_element_by_xpath("//span[contains(@class,'button__text sc-els-paginator') and contains(text(), 'Next')]").click()
-    time.sleep(5)
+    if numberOfNext > 1 and  currentPage < numberOfNext:
+        a = driver.find_element_by_xpath("//span[contains(@class,'button__text sc-els-paginator') and contains(text(), 'Next')]").click()
+        #print("reached")
+        time.sleep(5)
 #     
 # =============================================================================
 df = pd.DataFrame(dataRows)
 df.columns=["Article/Conference/Book Chapter", "Title", "Journal/Conference/Book chapter Name", "Year", "Vol/Issue/pages", "citations" , "Authors"]
 df.to_csv("final_report.csv")
-print(articleInformation)
 
 driver.quit()
