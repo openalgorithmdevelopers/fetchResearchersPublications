@@ -1,15 +1,83 @@
-,Article/Conference/Book Chapter,Title,Journal/Conference/Book chapter Name,Year,Vol/Issue/pages,citations,Authors
-0,Article,A Framework for the Generation of Obstacle Data for the Study of Obstacle Detection by Ultrasonic Sensors,IEEE Sensors Journal,2021," 21(7), pp. 9475–9483, 9340275","0
-Citations","Singh, B., Kapoor, M."
-1,Article,Assistive cane for visually impaired persons for uneven surface detection with orientation restraint sensing,Sensor Review,2020," 40(6), pp. 687–698","0
-Citations","Singh, B., Kapoor, M."
-2,Article,Automating the detection of milk boil through sensors,International Journal of System of Systems Engineering,2020," 10(3), pp. 293–308","0
-Citations","Singh, B., Verma, A."
-3,Review,Mining the treasure of palm leaf manuscripts through information retrieval techniques,Digital Library Perspectives,2019," 35(3-4), pp. 146–156","1
-Citations","Singh, B., Ahuja, N.J."
-4,Conference Paper,A Survey of Current Aids for Visually Impaired Persons,"Proceedings - 2018 3rd International Conference On Internet of Things: Smart Innovation and Usages, IoT-SIU 2018",2018, 8519919,"5
-Citations","Singh, B., Kapoor, M."
-5,Conference Paper,Automated-Seeded average approach of color segmentation for still color image and video,ICCT 2017 - International Conference on Intelligent Communication and Computational Techniques,2018," 2018-January, pp. 86–89","0
-Citations","Verma, A., Singh, B."
-6,Conference Paper,Contrast enhancement and micro-calcification detection using statistical and wavelet features in digital mammograms,"2017 4th International Conference on Image Information Processing, ICIIP 2017",2018," 2018-January, pp. 438–441","1
-Citations","Singh, B., Verma, A., Tripathi, R.C."
+,Article Type,Title,Journal/Conference/Book chapter Name,Year,Vol/Issue/pages,citations,Authors
+0,Article,Crystal structure and optical analysis of new reddish-orange Sm3+ doped BaGd2ZnO5 nano-crystalline materials for multifunctional applications,Materials Research Bulletin,2022," 145, 111522","0
+Citations","Sheoran, M., Sehrawat, P., Kumar, M., Malik, R.K."
+1,Article,Structural and Optoelectronic Analysis of Ba5Zn4Gd8O21: Er3+ Nanomaterials Emitting Green Light for Modern Lighting Applications,Journal of Electronic Materials,2021," 50(11), pp. 6270–6282","0
+Citations","Sheoran, M., Sehrawat, P., Kumari, N., Malik, R.K."
+2,Article,Designing of emerald terbium (III) ions with β-ketocarboxylic acid and heterocyclic ancillary ligands for biological and optoelectronic applications,Luminescence,2021," 36(7), pp. 1658–1670","0
+Citations","Hooda, P., Taxak, V.B., Malik, R.K., ...Khatkar, S.P., Kumar, R."
+3,Article,Augmenting the photoluminescence efficiency via enhanced energy-relocation of new white-emanating BaYAlZn3O7:Dy3+ nano-crystalline phosphors for WLEDs,Journal of Alloys and Compounds,2021," 879, 160371","8
+Citations","Sehrawat, P., Malik, R.K., Punia, R., Khatkar, S.P., Taxak, V.B."
+4,Article,Near unity green emission with radiative and non-radiative itemization into novel energy-efficient Sr6Al4Y2O15:Er3+ nanomaterials for WLEDs,Chemical Physics Letters,2021," 781, 139013","0
+Citations","Sehrawat, P., Malik, R.K., Punia, R., ...Kumar, M., Maken, S."
+5,Article,New Ba2YAlO5:Dy3+ nanomaterials for WLEDs: Propellant combustion synthesis and photometric features for enhanced emission of cool-white light under NUV excitation,Chemical Physics Letters,2021," 781, 138985","0
+Citations","Sehrawat, P., Malik, R.K., Punia, R., ...Singh, S., Kumar, M."
+6,Article,"Crystal configuration, luminescence dynamics and facile combustion-fabrication of high-brightness YAG:Sm3+ nanomaterials towards competent illuminating appliances, especially WLEDs and solar-cells",Chemical Physics Letters,2021," 779, 138831","3
+Citations","Sehrawat, P., Malik, R.K., Punia, R., Kumari, N."
+7,Article,Crystal chemistry and photoluminescent investigation of novel white light emanating Dy3+ doped Ca9Bi(VO4)7 nanophosphor for ultraviolet based white LEDs,Materials Chemistry and Physics,2021," 270, 124828","0
+Citations","Phogat, P., Khatkar, S.P., Malik, R.K., ...Hooda, P., Taxak, V.B."
+8,Article,Realization of orange-red emanation from novel oxide-based BaSrY4O8:Sm3+ nanocrystals for optoelectronic applications,Journal of Materials Science: Materials in Electronics,2021," 32(18), pp. 23601–23613","0
+Citations","Sheoran, M., Sehrawat, P., Dalal, H., Kumari, N., Malik, R.K."
+9,Article,Optimizing the highly efficient cool-white luminescence via modulating Dy3+ ion into novel Sr6Al4Y2O15 nanocrystals for white LEDs,Journal of Materials Science: Materials in Electronics,2021," 32(18), pp. 23486–23499","1
+Citations","Sehrawat, P., Malik, R.K., Punia, R., Maken, S."
+10,Article,Investigation of photophysical properties of ternary Sm(III) complexes,Optik,2021," 242, 167078","0
+Citations","Chauhan, A., Malik, R.K., Lohra, S., Langyan, R."
+11,Article,Facile combustion fabrication and optical investigation of novel Er3+-activated BaSrY4O8 green emitter for solid state lighting applications,Optik,2021," 241, 167041","4
+Citations","Sheoran, M., Sehrawat, P., Kumar, M., ...Khatkar, S.P., Malik, R.K."
+12,Article,Probing into multifunctional deep orange-red emitting Sm3+-activated zincate based nanomaterials for wLED applications,Chemical Physics Letters,2021," 777, 138743","10
+Citations","Sehrawat, P., Malik, R.K., Punia, R., Khatkar, S.P., Taxak, V.B."
+13,Article,Generation of cost-effective conventional-combustion derived novel green-luminous BaLa2ZnO5:Er3+ nanomaterials for high quality illumination in WLEDs and solar-cells,Chemical Physics Letters,2021," 777, 138752","8
+Citations","Sehrawat, P., Malik, R.K., Sheoran, M., Punia, R."
+14,Article,Cool white light emanation and photo physical features of combustion derived Dy3+ doped ternary yttrate oxide based nanophosphors for down converted WLEDs,Chemical Physics Letters,2021," 773, 138608","8
+Citations","Sheoran, M., Sehrawat, P., Kumari, N., Khatkar, S.P., Malik, R.K."
+15,Article,"Highly efficient green-glimmering Y3Al5O12:Er3+ NPs for next generation electro-optic appliances, mainly white-LEDs and solar-cells",Chemical Physics Letters,2021," 773, 138592","13
+Citations","Sehrawat, P., Malik, R.K., Khatkar, S.P., Taxak, V.B."
+16,Article,Luminescence tuning and structural analysis of new BaYAlZn3O7:Sm3+ nanomaterials with excellent performance for advanced optoelectronic appliances,Journal of Materials Science: Materials in Electronics,2021," 32(12), pp. 15930–15943","10
+Citations","Sehrawat, P., Malik, R.K., Punia, R., ...Khatkar, S.P., Taxak, V.B."
+17,Article,Crystallographic and Judd-Ofelt Parametric investigation into Ca9Bi(VO4)7:Eu3+ nanophosphor for NUV-WLEDs,Journal of Luminescence,2021," 234, 117984","7
+Citations","Phogat, P., Khatkar, S.P., Malik, R.K., ...Hooda, A., Taxak, V.B."
+18,Article,Synthesis and crystal structural analysis of a green light-emitting Ba5Zn4Y8O21:Er3+ nanophosphor for PC-WLEDs applications,Journal of Materials Science: Materials in Electronics,2021," 32(9), pp. 11683–11694","2
+Citations","Sheoran, M., Sehrawat, P., Kumar, M., ...Khatkar, S.P., Malik, R.K."
+19,Article,Cool-white illumination characteristics of combustion-derived novel single-phase Sr9Al6O18: Dy3+ nanomaterials for NUV induced WLEDs and solar cells,Chemical Physics Letters,2021," 770, 138438","16
+Citations","Sehrawat, P., Malik, R.K., Kumari, N., ...Khatkar, S.P., Taxak, V.B."
+20,Article,Crystal structure and photoluminescent analysis of bright orange-red emanating Sm3+-doped Ca9Bi(VO4)7 nanophosphor for WLEDs,Journal of Materials Science: Materials in Electronics,2021," 32(7), pp. 8615–8627","1
+Citations","Phogat, P., Khatkar, S.P., Malik, R.K., ...Punia, M., Taxak, V.B."
+21,Article,Achieving orange red emission with high color purity from novel perovskite based Sr9Al6O18:Sm3+ nano-cubes for advanced optoelectronic applications,Ceramics International,2021," 47(4), pp. 5432–5445","24
+Citations","Sehrawat, P., Dayawati,, Boora, P., ...Khatkar, S.P., Taxak, V.B."
+22,Article,Multicolor luminescence evolving from single-phase Eu3+/Tb3+ co-doped SrLaAlO4 nanomaterials for advanced photonic appliances,Chemical Physics Letters,2021," 763, 138243","19
+Citations","Sehrawat, P., Malik, R.K., Boora, P., ...Khatkar, S.P., Taxak, V.B."
+23,Article,"Realization of tricolor luminescence from novel Sr5Al2O8:Sm3+, Er3+& Dy3+ nanomaterials for advanced photonic applications",Chemical Physics Letters,2021," 762, 138134","18
+Citations","Sehrawat, P., Khatkar, S.P., Jin Kim, I., ...Chhillar, P., Taxak, V.B."
+24,Article,"Structural, spectroscopic and optical analysis of green-glowing BaLaAlO4:Er3+ nanomaterials for photonic applications",Chemical Physics Letters,2020," 760, 138004","24
+Citations","Sehrawat, P., Khatkar, A., Boora, P., ...Khatkar, S.P., Taxak, V.B."
+25,Article,Crystal structure engineering and optical analysis of novel greenish Sr9Al6O18:Er3+ nanomaterials for NUV excitable cool-white LED applications,Chemical Physics Letters,2020," 759, 138044","20
+Citations","Sehrawat, P., Dayawati,, Boora, P., ...Khatkar, S.P., Taxak, V.B."
+26,Article,Combustion derived color tunable Sm3+ activated BaLaAlO4 nanocrystals for various innovative solid state illuminants,Chemical Physics Letters,2020," 758, 137937","30
+Citations","Sehrawat, P., Khatkar, A., Boora, P., ...Khatkar, S.P., Taxak, V.B."
+27,Article,Tailoring the tunable luminescence from novel Sm3+ doped SLAO nanomaterials for NUV-excited WLEDs,Chemical Physics Letters,2020," 755, 137758","29
+Citations","Sehrawat, P., Khatkar, A., Boora, P., ...Khatkar, S.P., Taxak, V.B."
+28,Article,Ba5Zn4Gd8O21:Tb3+-structural characterization and the Judd-Ofelt parameterization from emission spectra,Methods and Applications in Fluorescence,2020," 8(3), 035002","5
+Citations","Dalal, J., Dalal, M., Devi, S., ...Taxak, V.B., Khatkar, S.P."
+29,Article,Emanating cool white light emission from novel down-converted SrLaAlO4:Dy3+ nanophosphors for advanced optoelectronic applications,Ceramics International,2020," 46(10), pp. 16274–16284","32
+Citations","Sehrawat, P., Khatkar, A., Boora, P., ...Khatkar, S.P., Taxak, V.B."
+30,Article,Crystal configuration and photoluminescent aspects of red-emitting combustion synthesized novel BaYZn3AlO7: Eu3+ nanophosphor,Journal of Alloys and Compounds,2020," 823, 153641","6
+Citations","Hooda, A., Khatkar, A., Kumar, M., ...Khatkar, S.P., Taxak, V.B."
+31,Article,A novel strategy for high color purity virescent Er3+-doped SrLaAlO4 nanocrystals for solid-state lighting applications,Journal of Materials Science: Materials in Electronics,2020," 31(8), pp. 6072–6083","30
+Citations","Sehrawat, P., Khatkar, A., Boora, P., ...Khatkar, S.P., Taxak, V.B."
+32,Article,Fabrication of single-phase BaLaAlO4:Dy3+ nanophosphors by combustion synthesis,Materials and Manufacturing Processes,2020, pp. 1259–1267,"25
+Citations","Sehrawat, P., Khatkar, A., Boora, P., ...Khatkar, S.P., Taxak, V.B."
+33,Article,Reddish-orange light emission via combustion synthesized Ba3Y4O9: Sm3+ nanocrystalline phosphor upon near ultraviolet excitation,Journal of Luminescence,2020," 217, 116806","13
+Citations","Hooda, A., Khatkar, S.P., Khatkar, A., ...Devi, S., Taxak, V.B."
+34,Article,An effective emission of characteristic cool white light from Dy3+ doped perovskite type SrLa2Al2O7 nanophosphors in single-phase pc WLEDs,Chemical Physics Letters,2019," 737, 136842","33
+Citations","Sehrawat, P., Khatkar, A., Devi, S., ...Khatkar, S.P., Taxak, V.B."
+35,Article,An energy-efficient novel emerald Er3+ doped SrGdAlO4 nanophosphor for PC WLEDs excitable by NUV light,Ceramics International,2019," 45(18), pp. 24104–24114","34
+Citations","Sehrawat, P., Khatkar, A., Hooda, A., ...Khatkar, S.P., Taxak, V.B."
+36,Article,Magnetic- and electric-dipole radiative rates in multifunctional Ba5Zn4Y8O21:Tb3+ nanorods,Journal of Materials Science: Materials in Electronics,2019," 30(19), pp. 17547–17558","9
+Citations","Dalal, J., Dalal, M., Devi, S., ...Taxak, V.B., Khatkar, S.P."
+37,Article,Crystal chemistry and optical analysis of a novel perovskite type SrLa2Al2O7:Sm3+ nanophosphor for white LEDs,Ceramics International,2019," 45(12), pp. 15571–15579","13
+Citations","Devi, S., Taxak, V.B., Chahar, S., ...Malik, R.K., Khatkar, S.P."
+38,Article,"Crystal structure, synthesis and photoluminescent properties of a reddish-orange light emitting SrGdAlO4: Sm3+ nanophosphor",Materials Chemistry and Physics,2019," 232, pp. 39–48","17
+Citations","Hooda, A., Khatkar, S.P., Khatkar, A., ...Devi, S., Taxak, V.B."
+39,Article  •  Open Access,Crystal structure and photophysical features of greenish perovskite type SrLa2Al2O7:Er3+ nanocrystals for down conversion white LEDs,Materials Research Express,2019," 6(12), 126213","28
+Citations","Sehrawat, P., Khatkar, A., Devi, S., ...Khatkar, S.P., Taxak, V.B."
+40,Article  •  Article in Press,"Combustion synthesis, Judd–Ofelt parameters and optical properties of color tunable Ba 3 Y 4 O 9 : Eu 3+ nanophosphor for near-UV based WLEDs",Journal of Materials Science: Materials in Electronics,2019,,"11
+Citations","Hooda, A., Khatkar, S.P., Khatkar, A., ...Dalal, J., Taxak, V.B."

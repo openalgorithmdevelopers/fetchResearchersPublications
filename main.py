@@ -2,8 +2,11 @@
 """
 Created on Mon Oct 18 11:11:50 2021
 
-@author: bhupendra.singh
+@author: bhupendra.singh bhupendra.bisht59@gmail.com
 """
+# Description: Provide your scopus id in line number 22 and the script will generate all your articles
+# available in SCOPUS database as of today. The final_report.csv will be generated in the same folder as this script
+
 
 import os
 from selenium import webdriver
@@ -13,11 +16,11 @@ import time  #replace with selenium wait
 from webdriver_manager.chrome import ChromeDriverManager
 
 import pandas as pd
-
+from tqdm.notebook import tqdm
 
 os.chdir('C:/Users/bhupendra.singh/Documents/GitHub/fetchResearchersPublications')
-#authorId = 57197900632
-authorId = 57210953023  #bhupendra singh
+authorId = 57197900632
+#authorId = 57210953023  #bhupendra singh
 #authorId = 57221459727 #D K Awasthi
 url = "https://www.scopus.com/authid/detail.uri?authorId=" + str(authorId)
 
@@ -43,12 +46,13 @@ b = a.split()
 c = b.index('Next')
 numberOfNext = b[c-1]
 numberOfNext = int(numberOfNext)
-if(numberOfNext > 100):
-    numberOfNext = 50
+if(numberOfNext > 80):
+    numberOfNext = 80
 
-for currentPage in range(numberOfNext):       #provide here the number of next clicks avaiable
+#for currentPage in range(numberOfNext):       #provide here the number of next clicks avaiable
+for currentPage in tqdm(range(numberOfNext)):       #provide here the number of next clicks avaiable
     currentPage = currentPage + 1
-    print("current page = " + str(currentPage))
+    #print("current page = " + str(currentPage))
     articleAndJournalNameWebElementList = driver.find_elements(By.XPATH, '//a[@title="Show document details"]') #Article and journal name
     articleTypeWebElementList = driver.find_elements(By.XPATH,  '//div[@data-component="document-type"]') #article or + open, conference paper
     
@@ -59,7 +63,9 @@ for currentPage in range(numberOfNext):       #provide here the number of next c
     authorsWebElementList = driver.find_elements(By.XPATH,  '//div[@class="author-list"]') #Authors lists
     for i in range(len(articleTypeWebElementList)):
         singleRow = []
-        singleRow.append(articleTypeWebElementList[i].text)
+        articleType = articleTypeWebElementList[i].text
+        articleType.replace("Open Access", "")
+        singleRow.append(articleType)
         singleRow.append(articleAndJournalNameWebElementList[2*i].text)
         singleRow.append(articleAndJournalNameWebElementList[2*i + 1].text)
         
@@ -88,7 +94,7 @@ for currentPage in range(numberOfNext):       #provide here the number of next c
 #     
 # =============================================================================
 df = pd.DataFrame(dataRows)
-df.columns=["Article/Conference/Book Chapter", "Title", "Journal/Conference/Book chapter Name", "Year", "Vol/Issue/pages", "citations" , "Authors"]
+df.columns=["Article Type", "Title", "Journal/Conference/Book chapter Name", "Year", "Vol/Issue/pages", "citations" , "Authors"]
 df.to_csv("final_report.csv")
 
 driver.quit()
